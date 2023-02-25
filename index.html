@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- Primero se cambia el idioma -->
+<html lang="en">
+<head>
+    <!-- 1.Codificacion del idioma, 2. para que funcione en ele navegador en edge o explorer, 3.es para las medidas de los telefonos o las tables y el wicd divace es que los dispositivos comienzan en 1-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Hojas de estilo estamos ocupando el metodo BEN y ATOMI DISING estas generan a los padres y a los hijos y en alura se estan llamando con guines hacaia abajo __-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/nomalize.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/sobreMi.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/formacion.css">
+    <link rel="stylesheet" href="./assets/css/experiencia.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+
+    <title>Portafolio</title>
+</head>
+<body>
+    <header class="cabecera">
+        <img src="./assets/img/estrellas.svg" alt="logo del portafolio" class="cabecera__imagen"><span>Joendy Romero</span>> 
+        <nav class="cabecera__container">
+            <ul class="cacecera__container__lista">
+                <li><a class="cabecera__container__lista__link" href="#">Sobre Mi</a></li>
+                <li><a class="cabecera__container__lista__link" href="#">Skills</a></li>
+                <li><a class="cabecera__container__lista__link" href="#">Hobbies</a></li>
+                <li><a class="cabecera__container__lista__link" href="#">Formación</a></li>
+                <li><a class="cabecera__container__lista__link" href="#">Proyectos</a></li>
+                <li><a class="cabecera__container__lista__link" href="#">7890@gmail.com</a></li>
+                <li><i class="fa-solid fa-bars cabecera--modificado"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+        <section class="main">
+            <img src="subir mi imagen personal" alt="Imagen principal personal">
+            <h1 class="main__titulo">Hola, mi nombre es Joendy Romero y me dedico al desarrollo web</h1>
+            <p class="main__texto">Soy formado en Alura con asociación Oracle Next, soy principiante en front end, me encuentro muy emocianado de presentar mi trabajo, desarrollado durante todo este proceso de formación</p>
+            <ul class="main__lista">
+                <li><a clas="main__lista__link" href="https://github.com/">Github</a></li>
+                <li><a clas="main__lista__link" href="#">Linkedin</a></li>
+                <li><a clas="main__lista__link" href="#">Instagram</a></li>
+                <li><a clas="main__lista__link" href="#">Currículo</a></li>
+            </ul>
+        </section>
+
+        <section class="sobreMi">
+        <div class="sobreMi__container">
+            <h2 class="sobreMi__titulo">Sobre Mi</h2>
+            <p class="sobreMi__texto">Soy una persona dedicada a trabajar en equipo, dar opiniones y recibir ideas para llevarlas a su realización, soy una persona responsable con mis actividades, respetuoso y apasionado con mi trabajo, aun me falta mucho por aprender pero estoy decidido a dar lo mejor de mi para aportarle a la empresa y aprender al igual de mi equipo de trabajo.</p>
+            <img class="sobreMi__imagen" src="./assets/img/firma.svg" alt="Sobre mi firma">
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2 class="skills__titulo">Skills</h2>
+        <ul class="skills__lista">
+            <li><img class="skills__imagen" src="./assets/img/html.svg" alt="HTML"> <span>HTML</span></li>
+            <li><img class="skills__imagen" src="./assets/img/js.svg" alt="js"> <span>Javascript</span></li>
+            <li><img class="skills__imagen" src="./assets/img/php.svg" alt="php"> <span>PHP</span></li>
+            <li><img class="skills__imagen" src="./assets/img/nodjs.svg" alt="node"> <span>Node</span></li>
+            <li><img class="skills__imagen" src="./assets/img/react.svg" alt="react"> <span>React</span></li>
+            <li><img class="skills__imagen" src="./assets/img/css.svg" alt="css"> <span>CSS</span></li>
+        </ul>
+    </section>
+
+    <section class="hobbies">
+        <h2 class="hobbies__titulo">Hobbies</h2>
+        <ul class="hobbies__lista">
+            <li><img class="hobbies__imagen" src="./assets/img/patinaje.svg" alt=""><span>Patinaje</span></li>
+            <li><img class="hobbies__imagen" src="./assets/img/guitar.svg" alt=""><span>Tocar Bajo</span></li>
+            <li><img class="hobbies__imagen" src="./assets/img/musica.svg" alt=""><span>Oír Música</span></li>
+            <li><img class="hobbies__imagen" src="./assets/img/vertv.svg" alt=""><span>Ver series</span></li>
+            <li><img class="hobbies__imagen" src="./assets/img/cocinar.svg" alt=""><span>Cocinar</span></li>
+            <li><img class="hobbies__imagen" src="./assets/img/fotografia.svg" alt=""><span>Tomar fotos</span></li>
+        </ul>
+    </section>
+
+    <section class="formacion">
+        <div class="formacion__container">
+            <h2 class="formacion__container__titulo">Formaciones Académicas</h2>
+            <div class="formacion__container__escuelas">
+                <img class="formacion__container__escuelas__imagen" src="./assets/img/analista.svg" alt="">
+                <p class="formacion__container__escuelas__titulo">Analista de Datos</p>
+                <p class="formacion__container__escuelas__texto">2018 - UFRP</p>
+            </div>
+            <div class="formacion__container__escuelas">
+                <img class="formacion__container__escuelas__imagen" src="./assets/img/alura.svg" alt="">
+                <p class="formacion__container__escuelas__titulo">Formación en UX Design</p>
+                <p class="formacion__container__escuelas__texto">2019 - ALURA</p>
+            </div>
+            <div class="formacion__container__escuelas">
+                <img class="formacion__container__escuelas__imagen" src="./assets/img/desing.svg" alt="">
+                <p class="formacion__container__escuelas__titulo">Posgrado en Desing</p>
+                <p class="formacion__container__escuelas__texto">En Curso</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="experiencia">
+        <div class="experiencia__container">
+            <h2 class="experiencia__container__titulo">Experiencia profesional</h2>
+            <div class="experiencia__container__proyectos">
+                <img class="experiencia__container__proyectos__imagen" src="./assets/img/encriptador1.svg" alt="encriptador1">
+                <p class="experiencia__container__proyectos__titulo">Encriptador de texto</p>
+                <p class="experiencia__container__proyectos__texto">Challenge Oracle
+                </p>
+                <div class="experiencia__container__proyectos__button">
+                    <button ><a class="experiencia__container__proyectos__button__links" href="">Repositório</a></button>
+                    <button ><a class="experiencia__container__proyectos__button__links" href="">Ver demo</a></button>
+                </div>
+            </div>
+            <div class="experiencia__container__proyectos">
+                <img class="experiencia__container__proyectos__imagen" src="./assets/img/juegojs1.svg" alt="juego1">
+                <p class="experiencia__container__proyectos__titulo">Juego creado con HTML  y JavaScript</p>
+                <p class="experiencia__container__proyectos__texto">Challenge Oracle
+                </p>
+                <div class="experiencia__container__proyectos__button">
+                    <button ><a class="experiencia__container__proyectos__button__links" href="">Repositório</a></button>
+                    <button ><a class="experiencia__container__proyectos__button__links" href="">Ver demo</a></button>
+                </div>
+            </div>
+            <div class="experiencia__container__proyectos">
+                <img class="experiencia__container__proyectos__imagen" src="./assets/img/encriptador2.svg" alt="encriptador2">
+                <p class="experiencia__container__proyectos__titulo">Encriptador de texto</p>
+                <p class="experiencia__container__proyectos__texto">Challenge Oracle
+                </p>
+                <div class="experiencia__container__proyectos__button">
+                    <button ><a class="experiencia__container__proyectos__button__links" href="">Repositório</a></button>
+                    <button ><a class="experiencia__container__proyectos__button__links" href="">Ver demo</a></button>
+                </div>
+            </div>
+            <div class="experiencia__container__proyectos">
+                <img class="experiencia__container__proyectos__imagen" src="./assets/img/juegojs2.svg" alt="">
+                <p class="experiencia__container__proyectos__titulo">Juego creado con HTML, CSS y JavaScript</p>
+                <p class="experiencia__container__proyectos__texto">Challenge Oracle
+                </p>
+                <div class="experiencia__container__proyectos__button">
+                    <button ><a class="experiencia__container__proyectos__button__links" href="">Repositório</a></button>
+                    <button ><a class="experiencia__container__proyectos__button__links" href="">Ver demo</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desarrollado Por: Joendy Romero<br>2023<br></p>
+    </footer>
+
+</main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

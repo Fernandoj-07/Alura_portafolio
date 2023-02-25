@@ -1,0 +1,16 @@
+:root{
+    --color-primario: #F5F5F5;
+    --color-secundario: #464646;
+    --color-tres:#EAF2FD;
+    --color-blanco: #ffffff;
+    --color-cuatro: #2A7AE4;
+}
+
+html{
+    font-family: Raleway, sans-serif;
+    font-size: 62.5%;
+}
+
+main{
+    background-color: var(--color-primario);
+}
